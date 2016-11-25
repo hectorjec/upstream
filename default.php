@@ -21,7 +21,7 @@ JHtml::addIncludePath(JPATH_COMPONENT . '/helpers');
 <?php if ($this->params->get('show_page_heading') != 0) : ?>
 <div class="page-header">
 	<h1>
-	<?php echo $this->escape($this->params->get('page_heading')); ?>
+	<?php echo $this->escagpe($this->params->get('page_heading')); ?>
 	</h1>
 </div>
 <?php endif; ?>
@@ -39,7 +39,7 @@ JHtml::addIncludePath(JPATH_COMPONENT . '/helpers');
 			?>
 		</div>
 		<div class="prueba">
-			<p>ahsnjkfhjkhafgjhkdfghlfdhglkhjdhfjghj El chuy quiere que el peque se la enseñe fafsfsgbdfgxbfsbgdgfgfsb<p>
+			<p>ahsnjkfhjkhafgjhkdfghlfdhglkhjdhfjghj El chuy quiere que el peque se la enseï¿½e fafsfsgbdfgxbfsbgdgfgfsb<p>
 				<button><?php echo Jtext::_('Hola como estas?');?></button>
 	    </div>	
 		<?php
