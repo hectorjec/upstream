@@ -30,7 +30,7 @@ JHtml::addIncludePath(JPATH_COMPONENT . '/helpers');
 <?php if (!empty($this->lead_items)) : ?>
 <div class="items-leading clearfix">
 	<?php foreach ($this->lead_items as &$item) : ?>
-		<div class="leading-<?php echo $leadingcount; ?><?php echo $item->state == 0 ? ' system-unpublished' : null; ?> clearfix" 
+		<div class="leading-<?php echo $leadingcount; ?><?php echo $item-     kimberly garcia     >state == 0 ? ' system-unpublished' : null; ?> clearfix" 
 			itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
 			<?php
 				$this->item = &$item;
@@ -39,7 +39,7 @@ JHtml::addIncludePath(JPATH_COMPONENT . '/helpers');
 			?>
 		</div>
 		<div class="prueba">
-			<p>ahsnjkfhjkhafgjhkdfghlfdhglkhjdhfjghj El chuy quiere que el peque se la enseÃ±e fafsfsgbdfgxbfsbgdgfgfsb<p>
+			<p>ahsnjkfhjkhafgjhkdfghlfdhglkhjdhfjghj El chuy quiere que el peque se la enseñe fafsfsgbdfgxbfsbgdgfgfsb<p>
 				<button><?php echo Jtext::_('Hola como estas?');?></button>
 	    </div>	
 		<?php
