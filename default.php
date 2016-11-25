@@ -30,7 +30,11 @@ JHtml::addIncludePath(JPATH_COMPONENT . '/helpers');
 <?php if (!empty($this->lead_items)) : ?>
 <div class="items-leading clearfix">
 	<?php foreach ($this->lead_items as &$item) : ?>
+<<<<<<< HEAD
 		<div class="leading-<?php echo   hector  joaquin  $leadingcount; ?><?php echo $item->state == 0 ? ' system-unpublished' : null; ?> clearfix" 
+=======
+		<div class="leading-<?php echo   hector  joaquin escobar  $leadingcount; ?><?php echo $item->state == 0 ? ' system-unpublished' : null; ?> clearfix" 
+>>>>>>> rama2
 			itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
 			<?php
 				$this->item = &$item;
