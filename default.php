@@ -31,7 +31,7 @@ JHtml::addIncludePath(JPATH_COMPONENT . '/helpers');
 <div class="items-leading clearfix">
 	<?php foreach ($this->lead_items as &$item) : ?>
 
-			itemprop="blogPost" itemscope      kimbrely marilu    itemtype="https://schema.org/BlogPosting">
+			itemprop="blogPost" itemscope      kimbrely marilu garciafqerfgeqfeqreqrgfeqrf    itemtype="https://schema.org/BlogPosting">
 			<?php
 				$this->item = &$item;
 				echo $this->loadTemplate('item');
