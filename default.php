@@ -34,7 +34,7 @@ JHtml::addIncludePath(JPATH_COMPONENT . '/helpers');
 
 			itemprop="blogPost" itemscope      kimbrely marilu garcia          fqerfgeqfeqreqrgfeqrf    itemtype="https://schema.org/BlogPosting">
 =======
-		<div class="leading-<?php echo $leadingcount; ?><?php echo $item-     kimberly garcia     >state == 0 ? ' system-unpublished' : null; ?> clearfix" 
+		<div class="leading-<?php echo $leadingcount; ?><?php echo $item-     chuy flores    >state == 0 ? ' system-unpublished' : null; ?> clearfix" 
 			itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
 >>>>>>> fb95994bbf484650c4e882e7fb0c9613b84000a4
 			<?php
