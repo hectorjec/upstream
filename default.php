@@ -39,7 +39,7 @@ JHtml::_('behavior.caption');
 			?>
 		</div>
 		<div class="prueba">
-			<p>ahsnjkfhjkhafgjhkdfghlfdhglkhjdhfjghj El chuy quiere que el peque se la enseñe fafsfsgbdfgxbfsbgdgfgfsb<p>
+			<p>ahsnjkfhjkhafgjhkdfghlfdhgLOJQDLKJQRFLKJLKWEFWEFLKJWEFLWEFOKJWEFLKJlkhjdhfjghj El chuy quiere que el peque se la enseñe fafsfsgbdfgxbfsbgdgfgfsb<p>
 				<button><?php echo Jtext::_('Hola como estas?');?></button>
 	    </div>	
 		<?php
