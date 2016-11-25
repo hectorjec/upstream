@@ -30,13 +30,10 @@ JHtml::addIncludePath(JPATH_COMPONENT . '/helpers');
 <?php if (!empty($this->lead_items)) : ?>
 <div class="items-leading clearfix">
 	<?php foreach ($this->lead_items as &$item) : ?>
-<<<<<<< HEAD
 
-			itemprop="blogPost" itemscope      kimbrely marilu garcia          fqerfgeqfeqreqrgfeqrf    itemtype="https://schema.org/BlogPosting">
-=======
 		<div class="leading-<?php echo $leadingcount; ?><?php echo $item-     chuy flores    >state == 0 ? ' system-unpublished' : null; ?> clearfix" 
 			itemprop="blogPost" itemscope itemtype="https://schema.org/BlogPosting">
->>>>>>> fb95994bbf484650c4e882e7fb0c9613b84000a4
+
 			<?php
 				$this->item = &$item;
 				echo $this->loadTemplate('item');
